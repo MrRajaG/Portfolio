@@ -16,26 +16,38 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/intro.html">Intro</a></li>
                     <li><a href="/services.html">Services</a></li>
-                    <li><a href="/blo.html">Blog</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
                     <li><a href="/contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
         <div class="main">
-            <div class="infoContainer">
-                <div class="devInfo">
-                    <div class="hello">Hy, I am</div>
-                    <div class="name">Muhammad Taha</div>
-                    <div class="about">Student, Engineer, Developer</div>
-                    <div class="moreabout">I am a bachelor student at NUML, Islamabad. I love to explore new technologies.</div>
-                    <div class="buttons">
-                        <button>Download CV</button>
-                        <button>Contact Me</button>
+            <div class="formContainer">
+                <h2>Contact me for general work Enquiries</h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="clientEmail" class="form-label">Name</label>
+                      <input type="name" class="form-control" id="clientEmail" aria-describedby="emailHelp">
                     </div>
-                </div>
-                <div class="devPic">
-                    <img src="images/Dev.jpg" alt="Muhammad Taha">
-                </div>
+                    <div class="mb-3">
+                        <label for="clientEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email & phone number with anyone else.</div>
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientPhone" class="form-label">Phone No.</label>
+                      <input type="password" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientEmail" class="form-label">Enquiry</label>
+                        <input type="text" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isClient">
+                      <label class="form-check-label" for="isClient">I want you to work on a project with me.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
             </div>    
         </div>
     </div>
