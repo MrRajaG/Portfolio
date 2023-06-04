@@ -10,6 +10,7 @@
     background-color:rgb(149, 141, 141);
     height: 100vh;
     font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
 }
 .sidebar nav{
     padding: 45px;
@@ -182,8 +183,12 @@ p{
     top: 10px;
     left: 10px;
 }
+.cheese{
+    margin-top: 8px;
+}
 .cross{
-    margin-left: 114px;
+    margin-left: 138px;
+    margin-top: 8px;
 }
 
 @media (max-width: 1000px) {
