@@ -8,7 +8,6 @@
 }
 .sidebar{
     background-color:rgb(149, 141, 141);
-    width: 280px;
     height: 100vh;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -123,10 +122,76 @@
     margin: 20px;
     font-family: 'Fira Sans', sans-serif;
 }
-.blogItem h2{
+h2{
     font-family: 'Fira Sans', sans-serif;
     margin: 23px;
 }
-.blogItem p{
+p{
     font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.H{
+    width: 265px;
+    background-color: blue;
+}
+.SF{
+    width: 199px;
+    background-color: Grey;
+}
+.F{
+    width: 133px;
+    background-color: limegreen;
+}
+.TF{
+    width: 67px;
+    background-color: yellow;
+}
+.Z{
+    width: 10px;
+    background-color: orange;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.cheeseBurger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 114px;
+}
+
+@media (max-width: 1000px) {
+    /* *{
+
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
 }
